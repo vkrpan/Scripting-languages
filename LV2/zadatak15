@@ -1,0 +1,12 @@
+
+var rand = require('./slucajanBroj.js');
+
+num1 = rand.dajSlucajanBroj(10, 100);
+num2 = rand.dajSlucajanBroj(10, 100);
+num3 = rand.dajSlucajanBroj(10, 100);
+
+console.log(num1, num2, num3)
+
+if(num1 % 10 == num2 % 10 || num1 % 10 == num3 % 10 || num2 %10 == num3%10){
+    console.log("True")
+}
