@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              programiranje u .NET okolini
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="accordion-body">
+                    <ul>
+                        <li onclick="changePicture('./img/c++.webp')">
+                            Motik, B., Šribar, J., Demistificirani C++, Element, Zagreb,2010
+                        </li>
+                        <li onclick="changePicture('./img/slika.jpg')">
+                            Liberty, J., Xie, D., Programming C# 3.0, 5th Edition, O Reilly Media,2007
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Osnove web programiranja
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <ul>
+                    <li onclick="changePicture('./img/html.jpg')">
+                        M. MacDonald, HTML5 - The Missing Manual, O Reilly, 2014.
+                    </li>
+                    <li onclick="changePicture('./img/ajax.jpg')">
+                        Powell Thomas, A., Ajax the complete reference, The McGraw-Hill, 2008.
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Web programiranje na strani poslužitelja
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+    
+                <ul>
+                    <li onclick="changePicture('./img/php.jpg')">
+                        Tatroe, K. MacIntyre, P., Lerdof, R. Programiranje PHP, O Reilly, 2013
+                    </li>
+                </ul>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                Skriptni jezici
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+    
+                <ul>
+                    <li onclick="changePicture('./img/js.jpg')">
+                        Powers, S., Naučite Javascript, O’Reilly, 2012
+                    </li>
+                    <li onclick="changePicture('./img/spj.jpg')">
+                        Flanagan, D., JavaScript: The Definitive Guide: Activate Your Web Pages, O’Reilly, 2011
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+      </div>
+    </div>
+    <div class="col-sm" >
+      <img src="" alt="" id="pictureBox">
+    </div>
+  </div>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/lista.js"></script>
+</body>
+</html>

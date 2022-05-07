@@ -1,0 +1,19 @@
+#outside{
+  margin-top: 15%;
+  margin-left: 35%;
+  border-style:double;
+  border-color: blue;
+  border-width: 10px;
+  width: 400px;
+  height: 280px;
+  text-align: center;
+  padding: 4%;
+}
+
+#inside{
+  border-style: solid;
+  border-width: 4px;
+  border-color: aqua;
+  padding: 5%;
+
+}
