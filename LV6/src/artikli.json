@@ -1,0 +1,42 @@
+[
+  {
+      "Id": "1",
+      "Naziv":"Tipkovnica",
+      "Proizvodac": "Asus",
+      "Model": "ROG",
+      "Cijena": "199,99",
+      "Kolicina": "1"
+  },
+  {
+      "Id": "2",
+      "Naziv":"Miš",
+      "Proizvodac": "Razer",
+      "Model": "Naga",
+      "Cijena": "399,99",
+      "Kolicina": "0"
+  },
+  {
+      "Id": "3",
+      "Naziv":"Monitor",
+      "Proizvodac": "Dell",
+      "Model": "S-series",
+      "Cijena": "1199,99",
+      "Kolicina": "4"
+  },
+  {
+      "Id": "4",
+      "Naziv":"Prijenosni zvučnik",
+      "Proizvodac": "JBL",
+      "Model": "Charge 5",
+      "Cijena": "1199,99",
+      "Kolicina": "1"
+  },
+  {
+      "Id": "5",
+      "Naziv":"Mobitel",
+      "Proizvodac": "Xiaomi",
+      "Model": "Mi 10T",
+      "Cijena": "3990,99",
+      "Kolicina": "7"
+  }
+]
