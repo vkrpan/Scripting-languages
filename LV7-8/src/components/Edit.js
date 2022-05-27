@@ -20,7 +20,7 @@ function Edit() {
     
     async function getArtikl(artiklID){
         try {
-          const response = await axios.get(`http://localhost/LV8/php/getOneArtikl.php?ID=${artiklID}`);
+          const response = await axios.get(`http://localhost/LV7-8/php/getOneArtikl.php?ID=${artiklID}`);
         setNaziv(response.data[0].Naziv);
         setProizvodac(response.data[0].Proizvodac);
         setModel(response.data[0].Model);
@@ -38,7 +38,7 @@ function Edit() {
 
       const UpdateArtikl  = async (artiklObj) => {
         console.log(artiklObj);
-        const noviArtikl = await axios.post('http://localhost/LV8/php/azuriraj.php',{
+        const noviArtikl = await axios.post('http://localhost/LV7-8/php/azuriraj.php',{
           nazivPHP: artiklObj.naziv,
           proizvodacPHP: artiklObj.proizvodac,
           modelPHP: artiklObj.model,

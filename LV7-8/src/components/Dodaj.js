@@ -28,7 +28,7 @@ function Dodaj() {
     }
 
     const insertArtikl  = async (artiklObj) => {
-        const noviArtikl = await axios.post('http://localhost/LV8/php/create.php',{
+        const noviArtikl = await axios.post('http://localhost/LV7-8/php/create.php',{
           naziv: artiklObj.naziv,
           proizvodac: artiklObj.proizvodac,
           model: artiklObj.model,

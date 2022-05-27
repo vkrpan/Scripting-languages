@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 import React from 'react';
 
 
-const readUrl = "http://localhost/LV8/php/read.php";
+const readUrl = "http://localhost/LV7-8/php/read.php";
 function Ucitaj(){
     const [artikli, setArtikl] = useState([]);
     const [q, setQ] = useState("");
@@ -25,7 +25,7 @@ function Ucitaj(){
 
           async function DeleteArtikl(idspecc){
               console.log(idspecc);
-              const response = await axios.delete(`https://localhost/LV8/php/delete.php`, {
+              const response = await axios.delete(`https://localhost/LV7-8/php/delete.php`, {
                 data:idspecc
               });
               setArtikl(artikli.filter((p) => p.id!==idspecc));
